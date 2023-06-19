@@ -1,29 +1,18 @@
 {
   "main": [
     {
-      "name": "Home",
-      "url": "/"
+      "name": "취업포트폴리오",
+      "url": "/gallery"
     },
     {
-      "name": "Portfolio",
-      "url": "/portfolio"
+      "name": "커뮤니티",
+      "url": "/community"
     },
     {
-      "name": "Blog",
-      "url": "/blog"
+      "name": "컨설팅요청등록",
+      "url": "/enroll"
     },
-    {
-      "name": "About",
-      "url": "/about"
-    },
-    {
-      "name": "Contact",
-      "url": "/contact"
-    },
-    {
-      "name": "Dashboard",
-      "url": "/dashboard"
-    },
+
     {
       "name": "개발용",
       "url": "",
@@ -40,6 +29,17 @@
         {
           "name": "404 Page",
           "url": "/404"
+        },    {
+          "name": "About",
+          "url": "/about"
+        },
+        {
+          "name": "Contact",
+          "url": "/contact"
+        },
+        {
+          "name": "Dashboard",
+          "url": "/dashboard"
         }
       ]
     }

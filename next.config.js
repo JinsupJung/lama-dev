@@ -5,6 +5,7 @@ const removeImports = require('next-remove-imports')();
 const nextConfig = {
   reactStrictMode: true,
   basePath: config.base_path !== "/" ? config.base_path : "",
+  transpilePackages: ["uploadthing", "@uploadthing/react"],
   trailingSlash: config.site.trailing_slash,
   images: {
     domains: ['lh3.googleusercontent.com', 's.gravatar.com'],
